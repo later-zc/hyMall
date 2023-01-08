@@ -1,0 +1,8 @@
+{
+  "usingComponents": {
+    "home-banner": "./cpns/home-banner",
+    "home-recommend": "./cpns/home-recommend",
+    "home-popular": "./cpns/home-popular",
+    "tab-control": "../../components/tab-control/tab-control"
+  }
+}

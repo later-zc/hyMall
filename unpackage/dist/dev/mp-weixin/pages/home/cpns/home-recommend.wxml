@@ -1,0 +1,1 @@
+<view class="recommend"><block wx:for="{{a}}" wx:for-item="item" wx:key="d"><view class="recommend-item" bindtap="{{item.c}}"><image class="img" src="{{item.a}}" mode="widthFix"></image><view class="title">{{item.b}}</view></view></block></view>

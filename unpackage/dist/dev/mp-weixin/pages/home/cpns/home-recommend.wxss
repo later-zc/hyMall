@@ -1,0 +1,18 @@
+.recommend {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 20rpx;
+}
+.recommend .recommend-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 28rpx;
+}
+.recommend .recommend-item .img {
+  width: 150rpx;
+  height: 150rpx;
+  margin-bottom: 10rpx;
+}
