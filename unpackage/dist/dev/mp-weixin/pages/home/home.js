@@ -40,11 +40,11 @@ const _sfc_main = {
         }),
         e: common_vendor.o(handleTabItemClick),
         f: common_vendor.p({
-          titles: ["1", "2", "3"]
+          titles: ["\u6D41\u884C", "\u65B0\u6B3E", "\u7CBE\u9009"]
         })
       };
     };
   }
 };
-const MiniProgramPage = /* @__PURE__ */ common_vendor._export_sfc(_sfc_main, [["__file", "C:/Users/23634/Desktop/learn/learn_uniapp/hyMallApp/pages/home/home.vue"]]);
+const MiniProgramPage = /* @__PURE__ */ common_vendor._export_sfc(_sfc_main, [["__file", "C:/Users/23634/Desktop/learn/learn_uniapp/hyMall/pages/home/home.vue"]]);
 wx.createPage(MiniProgramPage);

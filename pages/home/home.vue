@@ -3,7 +3,7 @@
 		<home-banner :banners="banners" @bannerItemClick="handleBannerItemClick"></home-banner>
 		<home-recommend :recommends="recommends" @recommendItemClick="handleRecommendItemClick"></home-recommend>
 		<home-popular></home-popular>
-		<tab-control :titles="['1', '2', '3']" @tabItemClick="handleTabItemClick"></tab-control>
+		<tab-control :titles="['流行', '新款', '精选']" @tabItemClick="handleTabItemClick"></tab-control>
 	</view>
 </template>
 
