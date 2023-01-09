@@ -1,0 +1,37 @@
+.goods-item {
+  box-sizing: border-box;
+  padding: 10rpx;
+  color: #333;
+}
+.goods-item .image {
+  width: 100%;
+  border-radius: 10rpx;
+}
+.goods-item .desc-info {
+  margin-top: 6rpx;
+}
+.goods-item .desc-info .title {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-size: 28rpx;
+}
+.goods-item .desc-info .info {
+  font-size: 26rpx;
+  text-align: center;
+}
+.goods-item .desc-info .info .price {
+  color: #ff5777;
+}
+.goods-item .desc-info .info .icon {
+  width: 30rpx;
+  height: 30rpx;
+  padding-left: 6rpx;
+  padding-right: 10rpx;
+  position: relative;
+  top: 6rpx;
+}
+.goods-item .desc-info .info .cfav {
+  position: relative;
+  top: 2rpx;
+}

@@ -1,5 +1,8 @@
 {
   "usingComponents": {
+    "grid-view-item": "../../components/grid-view-item/grid-view-item",
+    "uni-grid-item": "../../uni_modules/uni-grid/components/uni-grid-item/uni-grid-item",
+    "uni-grid": "../../uni_modules/uni-grid/components/uni-grid/uni-grid",
     "home-banner": "./cpns/home-banner",
     "home-recommend": "./cpns/home-recommend",
     "home-popular": "./cpns/home-popular",

@@ -1,16 +1,22 @@
-// scss变量
+// 这些是scss变量
 $gPrimaryColor: #ff5777;
 $gTintColor: #ff8198;
 
-$gPriceColor: #ff5f3e;
+$gPriceColor:#ff5f3e;
 $gNormalColor: #666;
 
-$gBgColor: #f2f2f2;
+$gBgColor:#f2f2f2;
 $gFontSize: 28rpx;
 
 // 定义混合
-@mixin normalFlex($direction: row, $justify: space-between) {
+@mixin normalFlex ($direction: row, $justify: space-between){
 	display: flex;
 	flex-direction: $direction;
 	justify-content: $justify;
+}
+
+@mixin textEllipsis() {
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
 }

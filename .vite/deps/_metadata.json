@@ -1,0 +1,13 @@
+{
+  "hash": "c5a2be03",
+  "browserHash": "1baf47f0",
+  "optimized": {
+    "vue3-lazy": {
+      "src": "../../node_modules/vue3-lazy/dist/vue-lazy.es5.js",
+      "file": "vue3-lazy.js",
+      "fileHash": "b0c097aa",
+      "needsInterop": false
+    }
+  },
+  "chunks": {}
+}
