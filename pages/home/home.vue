@@ -6,7 +6,7 @@
 		<tab-control :titles="['流行', '新款', '精选']" @tabItemClick="handleTabItemClick"></tab-control>
 		<uni-grid :column="2" :showBorder="true" :square="false">
 			<template v-for="item in goodsList[currentType].list" :key="item.iid">
-				<uni-grid-item :index="index">
+				<uni-grid-item class="grid-item" :index="index">
 					<grid-view-item :item="item" @itemClick="handleGridItemClick"></grid-view-item>
 				</uni-grid-item>
 			</template>
@@ -55,4 +55,8 @@
 	}
 </script>
 
-<style></style>
+<style lang="scss">
+	:deep(.grid-item > .uni-grid-item--border) {
+		border-width: 0 !important;
+	}
+</style>

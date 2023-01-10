@@ -1,0 +1,3 @@
+ .grid-item > .uni-grid-item--border {
+  border-width: 0 !important;
+}
